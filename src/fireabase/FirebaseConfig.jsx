@@ -6,12 +6,12 @@ import {getAuth} from 'firebase/auth';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDoJvalILWn6esetahpL9BGRT__B5azWvI",
-  authDomain: "myfirstapp-38751.firebaseapp.com",
-  projectId: "myfirstapp-38751",
-  storageBucket: "myfirstapp-38751.appspot.com",
-  messagingSenderId: "273202707457",
-  appId: "1:273202707457:web:5724f212508b5b82f31400"
+  apiKey: "AIzaSyB-32TvGJThiHcxr9Gx2up-hJUnf0MfIpQ",
+  authDomain: "shoping-ea236.firebaseapp.com",
+  projectId: "shoping-ea236",
+  storageBucket: "shoping-ea236.appspot.com",
+  messagingSenderId: "160059248874",
+  appId: "1:160059248874:web:25c6101af8725c10ee8793"
 };
 
 // Initialize Firebase
@@ -21,3 +21,5 @@ const fireDB = getFirestore(app);
 const auth = getAuth(app);
 
 export {fireDB, auth}
+
+
